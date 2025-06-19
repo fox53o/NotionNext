@@ -38,7 +38,7 @@ const CONFIG = {
     PROXIO_ANNOUNCEMENT_ENABLE: false, //公告文字区块
 
     // 特性区块
-    PROXIO_FEATURE_ENABLE: true, // 特性区块开关
+    PROXIO_FEATURE_ENABLE: false, // 特性区块开关
     PROXIO_FEATURE_TITLE: '为什么选我',
     PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
     PROXIO_FEATURE_TEXT_2:
@@ -184,57 +184,6 @@ const CONFIG = {
         'Product Design'
     ],
 
-    PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
-
-    // 页脚三列菜单组
-    // 页脚菜单
-    PROXIO_FOOTER_LINKS: [
-        {
-            name: '友情链接',
-            menus: [
-                {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
-                {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
-                }
-            ]
-        },
-        {
-            name: '开发者',
-            menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-                {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-                },
-                {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-                },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
-                }
-            ]
-        }],
-
-    PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
-
-    PROXIO_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-    PROXIO_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
-
-    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
-
-    PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-    PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
     // 404页面的提示语
     PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
