@@ -7,7 +7,7 @@ const CONFIG = {
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '<div style="margin: 30px 0"><span style="font-size:0.5em">Anonymity in design voids authorship, empowering occupants as co-creators.</span></div>.', // 英雄区文字
+    PROXIO_HERO_TITLE_1: 'Anonymity in design voids authorship, empowering occupants as co-creators.', // 英雄区文字
     PROXIO_HERO_TITLE_2: '', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
