@@ -16,6 +16,43 @@ const Style = () => {
         background-color: black;
     }
 
+    // +++ 增加主要区块的垂直间距 +++
+    #theme-proxio .hero-area,
+    #theme-proxio .features-area,
+    #theme-proxio .blog-area {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+    
+    // +++ 增加文本行间距 +++
+    #theme-proxio .text-xl,
+    #theme-proxio .text-2xl {
+        line-height: 1.7 !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    // +++ 增加段落间距 +++
+    #theme-proxio p {
+        margin-bottom: 1.8rem !important;
+    }
+
+    // +++ 增加标题上下间距 +++
+    #theme-proxio .section-title {
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    // +++ 增加按钮间距 +++
+    #theme-proxio .hero-button {
+        margin-top: 2rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    // +++ 增加卡片间距 +++
+    #theme-proxio .blog-card {
+        margin-bottom: 3rem !important;
+    }
+
     #theme-proxio .bg-primary {
         --tw-bg-opacity: 1;
         background-color: #121212;
