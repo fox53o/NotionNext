@@ -1,5 +1,5 @@
 /**
- * 另一个落地页主题
+ *
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
@@ -24,7 +24,7 @@ const CONFIG = {
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-    PROXIO_BLOG_TITLE: 'PROJECT',
+    PROXIO_BLOG_TITLE: '',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
     PROXIO_BLOG_TEXT_1: '',
 
