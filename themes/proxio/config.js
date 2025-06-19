@@ -22,7 +22,7 @@ const CONFIG = {
     PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
     
     // 文章区块
-    PROXIO_BLOG_ENABLE: false, // 首页博文区块开关
+    PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
     PROXIO_BLOG_TITLE: 'PROJECT',
 
     
