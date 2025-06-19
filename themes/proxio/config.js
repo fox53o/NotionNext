@@ -3,11 +3,11 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: 'Anonymity in design voids authorship, empowering occupants as co-creators.', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: '', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: 'Anonymity in design voids authorship, empowering occupants as co-creators.', // 英雄区文字
+    PROXIO_HERO_TITLE_1: '<div style="margin: 30px 0"><span style="font-size:0.5em">Anonymity in design voids authorship, empowering occupants as co-creators.</span></div>.', // 英雄区文字
     PROXIO_HERO_TITLE_2: '', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
@@ -20,13 +20,7 @@ const CONFIG = {
     // 英雄区配图，如需隐藏，改为空值即可 ''
     PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
     PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
-
-
-
-
-
     
-
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
     PROXIO_BLOG_TITLE: 'PROJECT',
@@ -40,13 +34,6 @@ const CONFIG = {
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: '',
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '',
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '',
-
-
-
-
-
-
-    
 
     PROXIO_ANNOUNCEMENT_ENABLE: false, //公告文字区块
 
