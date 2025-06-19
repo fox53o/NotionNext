@@ -2,7 +2,7 @@
  *
  */
 const CONFIG = {
-    PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
+    PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
     PROXIO_WELCOME_TEXT: 'Anonymity in design voids authorship, empowering occupants as co-creators.', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
@@ -24,7 +24,7 @@ const CONFIG = {
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-    PROXIO_BLOG_TITLE: '',
+    PROXIO_BLOG_TITLE: 'PROJECT',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
     PROXIO_BLOG_TEXT_1: '',
 
@@ -191,15 +191,15 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: false,
-    PROXIO_CTA_TITLE: '与我建立联系',
-    PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_TITLE: 'Anonymity in design voids authorship, empowering occupants as co-creators.',
+    PROXIO_CTA_TITLE_2: '',
     PROXIO_CTA_DESCRIPTION:
-        '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+        '',
     PROXIO_CTA_BUTTON: true, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
-        '/about',
-    PROXIO_CTA_BUTTON_TEXT: '联系我',
+        '',
+    PROXIO_CTA_BUTTON_TEXT: '',
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
     PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
